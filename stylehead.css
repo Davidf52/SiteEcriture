@@ -1,0 +1,417 @@
+body {
+  background: linear-gradient(0.25turn,#3f87a6, #ebf8e1, #a0522d);
+}
+
+.nav-item {
+  margin-left: 80px;
+}
+
+/* PARTIE CAROUSEL */
+
+#carouselExampleIndicators {
+  width: 40%;
+  height: auto;
+}
+
+.divmere {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item p {
+  margin-top: 20px;
+  font-size: large;
+  color: #a0522d;
+  text-align: center;
+}
+
+.inscriptions {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.inscriptions h1 {
+  margin-bottom: 20px;
+  color: #a0522d;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Dancing Script', cursive;
+}
+
+.card:hover {
+  animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.card-body .description span {
+  color: rgb(202, 133, 5);
+}
+
+.description{
+  padding: 20px;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.article {
+  display: block;
+  padding: 80px;
+}
+
+.article .titrecat {
+  padding: 20px;
+
+}
+
+a.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 500;
+  color: white;
+  font-size: xx-large;
+  text-shadow: 1px 1px 2px red, 0 0 1em brown, 0 0 0.2em blue;
+}
+
+a.navbar-brand:hover {
+  color: #a0522d;
+}
+
+.container-fluid {
+  /* background-color: #a0522d; */
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #a0522d);
+  padding: 10px;
+}
+
+a.nav-link {
+  font-size: large;
+  color: #a0522d;
+  font-weight: 700;
+}
+
+a.nav-link:hover {
+  color: white;
+}
+
+nav.navbar.navbar-expand-lg.bg-light {
+  padding: 0;
+}
+
+.d-flex button {
+  color: white;
+}
+
+.lienajout {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.lienajout a {
+  text-decoration: none;
+  color: white
+}
+
+.titrecat h1 {
+  text-shadow: 1px 1px 2px red, 0 0 1em brown, 0 0 0.2em blue;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 500;
+  color: white;
+  margin-left: 50px;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card-body{
+  border-style:groove;
+}
+
+.card-title span{
+  text-shadow: 1px 1px 2px red, 0 0 1em brown, 0 0 0.2em blue;
+  text-decoration : underline;
+}
+
+.connexion {
+  margin: 80px;
+}
+
+.connexion p {
+  margin: 20px;
+}
+
+.connexion a {
+  text-decoration: none;
+  color: white;
+}
+
+.connexion a:hover {
+  color: #a0522d;
+}
+
+.connexion h1 {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  margin: 20px;
+}
+
+/* LA BOX CONNEXION */
+.allbox {
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+
+.connectBox {
+  background: linear-gradient(0.25turn, #a0522d, #ebf8e1, #3f87a6, );
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 28%;
+  height: auto;
+  margin: auto;
+  padding: 30px 0;
+  color: #4B4B4B;
+  border-radius: 3px;
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.connectBox h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  color: #a0522d;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.connectBox form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 270px;
+  margin: auto;
+  font-size: 16px;
+}
+
+.connectBox label {
+  color: #a0522d;
+}
+
+.connectBox form input {
+  flex-wrap: wrap;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 12px 0;
+  background: #F9F9F9;
+}
+
+.connectBox form input:focus {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.connectBox form input:first-of-type {
+  margin-bottom: 40px;
+}
+
+.connectBox form>input[type="submit"] {
+  border: none;
+  text-decoration: none;
+  color: white;
+  background: #c56d44;
+  width: 140px;
+  font-size: 16px;
+  text-align: center;
+  align-self: center;
+  padding: 10px 0;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  transition: all 0.2s ease-in;
+}
+
+.connectBox form>input[type="submit"]:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.connectBox p {
+  align-self: center;
+}
+
+.connectBox p>a {
+  color: #EF5350;
+  text-decoration: none;
+}
+
+.connectBox a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #a0522d;
+  font-weight: 600;
+}
+
+@media screen and (max-width:990px) {
+
+  .connectBox {
+    width: 50%;
+    height: auto;
+  }
+
+  .connectBox h1 {
+    text-align: start;
+  }
+
+  .connectBox input {
+    width: 50%;
+    height: auto;
+  }
+
+  .connectBox a {
+    align-items: flex-start;
+  }
+
+  .connectBox form>input[type="submit"] {
+    margin-right: 40%;
+    width: 40%;
+    height: auto;
+  }
+}
+/* FIN DE BOXCONNECTION */
+
+.titree h1 {
+  margin: 180px;
+  color: white;
+  text-shadow: 1px 1px 2px red, 0 0 1em brown, 0 0 0.2em rgb(29, 32, 209);
+}
+
+
+.titreliste {
+  color: white;
+  margin: 150px;
+  text-shadow: 1px 1px 2px red, 0 0 1em brown, 0 0 0.2em blue;
+}
+
+.titreliste span:hover {
+  color: linear-gradient(#a0522d, #3f87a6, );
+}
+
+.connectetoi a {
+  color: white;
+  text-decoration: none;
+  margin: 50px;
+}
+
+.connectetoi a:hover {
+  color: #a0522d;
+}
+
+.choix {
+  border: #a0522d solid 3px;
+  border-radius:5px;
+  margin: 50px;
+  color: white;
+}
+
+.choix h3 {
+  padding: 10px;
+}
+
+.choix a {
+  text-decoration: none;
+  padding: 10px;
+  color: #a0522d;
+  font-size: large;
+}
+/*PAGE AJOUT*/
+
+.titreajout{
+  padding: 80px;
+  text-shadow: 1px 1px 2px red, 0 0 1em brown, 0 0 0.2em blue;
+}
+.back a{
+  text-decoration: none;
+  color: #a0522d;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.presentation{
+  margin: 150px;
+  border: 3mm ridge #c56d44;
+  display: block;
+  flex-wrap: wrap;
+
+}
+
+.nameart{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 4vw;
+  color: white;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em brown, 0 0 0.2em rgb(0, 0, 0);
+  font-family: 'Dancing Script', cursive;
+  
+}
+.pseudoart{
+  margin: 90px;
+}
+.letout{
+  display: flex;
+  font-size:1.5vw;
+  margin-top: 90px;
+  
+}
+.letout p{
+  color: white;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.letout span{
+  color: white;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em brown, 0 0 0.1em rgb(0, 0, 0);
+  font-weight: 700;
+}
+.contenuart{
+  padding: 80px;
+  line-height: 32px;
+  margin-top: 60px;
+  font-size: larger;
+}
+
+/*PARTIE MONCOMPTE */
+
+.compte{
+  margin: 100px;
+}
